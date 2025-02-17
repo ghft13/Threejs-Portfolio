@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: one;
+  src: url(/public/Fonts/BYstander.ttf);
+}
+
+
+@font-face {
+  font-family: two;
+  src: url(/public/Fonts/TheBystand.ttf);
+}
+
+
+@font-face {
+  font-family: three;
+  src: url(/public/Fonts/superlete.ttf);
+}
+
+
+
+@font-face {
+  font-family: four;
+  src: url(/public/Fonts/JunigardenSerif_PERSONAL_USE_ONLY.otf);
+}
+
+
+
+@font-face {
+  font-family: five;
+  src: url(/public/Fonts/Laurasia-Ligature.ttf);
+}
+
+
+
+@font-face {
+  font-family: six;
+  src: url(/public/Fonts/Laurasia.ttf);
+}
+
+.box {
+  perspective: 1000px;  /* Adds depth */
+}
+
+.txt {
+  transform:translateZ(-1200px);
+  transform-origin: center;
+  transition: transform 0.5s ease-in-out;
+}
+.me {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.underline {
+  position: absolute;
+  height: 3px;
+  width: 0;
+  top: 114px;
+  background-color: yellow;
+}
+.cylinder{
+  transform:skewY(-5deg);
+}
