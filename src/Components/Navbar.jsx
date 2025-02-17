@@ -45,7 +45,7 @@ function Navbar() {
 
     // Load Texture Asynchronously
     const loader = new THREE.TextureLoader();
-    loader.load("/src/assets/Untitled design (2).png", (texture) => {
+    loader.load("Untitled design (2).png", (texture) => {
       texture.wrapS = THREE.RepeatWrapping;
       texture.repeat.set(1 / 0.5, 1);
 
