@@ -40,11 +40,12 @@ function Footer() {
   return (
     <div className="w-screen bg-[#F9DDDF] h-screen footer">
       <div className="flex justify-between items-center p-10 overflow-hidden">
+      
         <h1 className="text-3xl text-[#2F303D] font-[one] name relative top-20">
-          Jayraj Araj
+              Jayraj Araj
         </h1>
         <div className="flex items-center gap-2 pr-7">
-          <span className="h-3 w-3 rounded-md bg-red-900 block"></span>
+          <span className="h-3 w-3 rounded-md bg-black block mt-1"></span>
           <h2 className="text-2xl text-[#2F303D] font-[one] menu relative top-20">
             Menu
           </h2>
@@ -66,13 +67,13 @@ function Footer() {
             <span className="first">s</span> into
             <br />
             <span className="second">C</span>
-            <span className="second">r</span>
-            <span className="second">e</span>
-            <span className="second">a</span>
-            <span className="second">t</span>
-            <span className="second">i</span>
-            <span className="second">v</span>
-            <span className="second">e</span> impact!
+            <span className="second">R</span>
+            <span className="second">E</span>
+            <span className="second">A</span>
+            <span className="second">T</span>
+            <span className="second">I</span>
+            <span className="second">V</span>
+            <span className="second">E</span> impact!
           </pre>
         </div>
 
@@ -99,4 +100,5 @@ function Footer() {
   );
 }
 
-export default Footer;
+
+export default Footer ;

@@ -109,7 +109,7 @@ function Navbar() {
           Jayraj Araj
         </h1>
         <div className="flex items-center gap-2 pr-7">
-          <span className="h-3 w-3 rounded-md bg-red-900 block"></span>
+          <span className="h-3 w-3 rounded-md bg-white block mt-1"></span>
           <h2 className="text-2xl text-white font-[one] menu relative top-40">
             Menu
           </h2>
@@ -117,7 +117,7 @@ function Navbar() {
       </div>
 
       <div className="py-10 relative top-[63%] z-10 flex justify-center items-center flex-col">
-        <h1 className="capitalize text-3xl text-red-700 font-[one] text-center title mt-7 opacity-0">
+        <h1 className="capitalize text-3xl text-white font-[one] text-center title mt-7 opacity-0">
           Hii I am Jayraj, Great to have you here
         </h1>
         <button className="bg-white font-[one] text-black rounded-xl p-2 btn opacity-0">

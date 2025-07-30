@@ -17,8 +17,6 @@ function Skills() {
         "a"
       );
 
-
-      
       tl.to(".lines h1", {
         color: "orange",
         stagger: 1,
@@ -55,6 +53,13 @@ function Skills() {
         stagger: 0.1,
       });
       t2.to(".btn3", {
+        y: 200,
+        opacity: 1,
+        duration: 1,
+        ease: "bounce.out",
+        stagger: 0.1,
+      });
+      t2.to(".btn4", {
         y: 200,
         opacity: 1,
         duration: 1,
@@ -112,7 +117,13 @@ function Skills() {
         GSAP
       </h2>
       <h2 className="btn3 opacity-0 text-4xl bg-white text-black font-[two] px-10 py-2 rounded-full absolute bottom-[500px] right-36">
-        THREE JS
+        EXPRESS
+      </h2>
+      <h2 className="btn4 opacity-0 text-4xl bg-white text-black font-[two] px-10 py-2 rounded-full absolute bottom-[556px] right-64 ">
+        NODEJS
+      </h2>
+      <h2 className="btn4 opacity-0 text-4xl bg-white text-black font-[two] px-10 py-2 rounded-full absolute bottom-[556px] right-2">
+        MONGODB
       </h2>
 
       <div className="absolute top-1/2 left-1/2 whitespace-nowrap -translate-x-1/2 opacity-0">

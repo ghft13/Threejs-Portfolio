@@ -14,7 +14,6 @@ function About() {
           end: "bottom 10%", // Scroll for twice the viewport height
           scrub: 1, // Smooth animation during scroll
           pin: true,
-        
         },
       });
 
@@ -24,7 +23,6 @@ function About() {
         ease: "power1.out",
       });
 
-      
       tl.to(".underline", {
         width: "120px",
         duration: 1.5,
@@ -56,29 +54,29 @@ function About() {
           <h1 className="text-8xl font-[one] text-center tracking-tight text-gray-500 txt opacity-0">
             <span>I’m </span>
             <span>a </span>
+            <span>full-stack </span>
             <span>developer </span>
             <span>and </span>
-            <span>designer </span>
-            <span>who </span> <br />
+            <span>designer </span> <br />
+            <span>who </span>
             <span>believes </span>
             <span>that </span>
             <span>great </span>
-            <span>design </span>
-            <span>is </span>
+            <span>products </span>
+            <span>are </span>
             <span>not </span>
-            <span>only </span>
-            <br />
-            <span>strong, </span>
-            <span>but </span>
-            <span>also </span>
-            <span>unique </span>
+            <span>only </span> <br />
+            <span>robust </span>
             <span>and </span>
-            <br />
+            <span>scalable, </span>
+            <span>but </span>
+            <span>also </span> <br />
+            <span>beautiful </span>
+            <span>and </span>
             <span>accessible </span>
             <span>in </span>
-            <span>its </span>
-            <span>own </span>
-            <span>right</span>
+            <span>every </span>
+            <span>way.</span>
           </h1>
         </div>
       </div>
