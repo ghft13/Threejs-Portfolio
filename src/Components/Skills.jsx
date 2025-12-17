@@ -73,25 +73,29 @@ function Skills() {
   return (
     <div className="w-screen h-screen py-20 relative bg-[black] skills">
       <div>
-        <h1 className="text-5xl text-center font-[six] tracking-tight leading-[38px] text-white work">
+        <h1 className="text-6xl text-left pl-10 font-[six] tracking-tight leading-[60px] text-white work">
           Available for contract work
           <br /> on creative Side & Projects 👀
         </h1>
       </div>
 
-      <div className="px-20 py-32 lines">
-        <h1 className="text-5xl font-[four] tracking-tight text-gray-400">
-          Just Learn
-        </h1>
-        <h1 className="text-5xl font-[four] tracking-tight text-gray-400">
-          Just Code
-        </h1>
-        <h1 className="text-5xl font-[four] tracking-tight text-gray-400">
-          Just Learn & Code
-        </h1>
-      </div>
+     <div className="px-20 py-32 lines">
+  <h1 className="text-5xl font-[four] tracking-tight text-gray-400 pb-5">
+    Just Learn
+  </h1>
+  <h1 className="text-5xl font-[four] tracking-tight text-gray-400 pb-5">
+    Just Code
+  </h1>
+  <h1 className="text-5xl font-[four] tracking-tight text-gray-400 pb-5">
+    Just Explore AI
+  </h1>
+  <h1 className="text-5xl font-[four] tracking-tight text-white mt-4 ">
+    Learn, Code & Explore AI
+  </h1>
+</div>
 
-      <div className="absolute right-20 top-56">
+
+      <div className="absolute right-20 top-32">
         <h1 className="text-8xl tracking-tight text-white font-[one]">
           why Me ?
         </h1>
@@ -122,8 +126,14 @@ function Skills() {
       <h2 className="btn4 opacity-0 text-4xl bg-white text-black font-[two] px-10 py-2 rounded-full absolute bottom-[556px] right-64 ">
         NODEJS
       </h2>
-      <h2 className="btn4 opacity-0 text-4xl bg-white text-black font-[two] px-10 py-2 rounded-full absolute bottom-[556px] right-2">
+      <h2 className="btn4 opacity-0 text-4xl bg-white text-black font-[two] px-10 py-2 rounded-full absolute bottom-[556px] right-10">
         MONGODB
+      </h2>
+       <h2 className="btn4 opacity-0 text-4xl bg-white text-black font-[two] px-10 py-2 rounded-full absolute bottom-[620px] right-10">
+        WORDPRESS
+      </h2>
+       <h2 className="btn4 opacity-0 text-4xl bg-white text-black font-[two] px-10 py-2 rounded-full absolute bottom-[620px] right-72">
+        CANVA
       </h2>
 
       <div className="absolute top-1/2 left-1/2 whitespace-nowrap -translate-x-1/2 opacity-0">

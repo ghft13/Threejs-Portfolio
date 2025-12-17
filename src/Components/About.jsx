@@ -14,6 +14,7 @@ function About() {
           end: "bottom 10%", // Scroll for twice the viewport height
           scrub: 1, // Smooth animation during scroll
           pin: true,
+         
         },
       });
 
@@ -51,33 +52,40 @@ function About() {
         </h1>
 
         <div className="flex justify-center items-center box ">
-          <h1 className="text-8xl font-[one] text-center tracking-tight text-gray-500 txt opacity-0">
-            <span>I’m </span>
-            <span>a </span>
-            <span>full-stack </span>
-            <span>developer </span>
-            <span>and </span>
-            <span>designer </span> <br />
-            <span>who </span>
-            <span>believes </span>
-            <span>that </span>
-            <span>great </span>
-            <span>products </span>
-            <span>are </span>
-            <span>not </span>
-            <span>only </span> <br />
-            <span>robust </span>
-            <span>and </span>
-            <span>scalable, </span>
-            <span>but </span>
-            <span>also </span> <br />
-            <span>beautiful </span>
-            <span>and </span>
-            <span>accessible </span>
-            <span>in </span>
-            <span>every </span>
-            <span>way.</span>
-          </h1>
+       <h1 className="text-7xl font-[one] text-center tracking-tight text-gray-500 txt opacity-0">
+  <span>I’m </span>
+  <span>a </span>
+  <span>full-stack </span>
+  <span>developer </span>
+  <span>and </span>
+  <span>a </span>
+  <span>WordPress </span>
+  <span>developer </span>
+  <br />
+
+  <span>who </span>
+  <span>builds </span>
+  <span>scalable, </span>
+  <span>web </span>
+  <span>applications </span>
+  <span>and </span>
+  <span>clean </span>
+  <span>content-driven </span>
+  <span>websites </span>
+  <br />
+
+  <span>with </span>
+  <span>a </span>
+  <span>strong </span>
+  <span>focus </span>
+  <span>on </span>
+  <span>user </span>
+  <span>experience, </span>
+  <span>design, </span>
+  <span>and </span>
+  <span>performance.</span>
+</h1>
+
         </div>
       </div>
     </>
