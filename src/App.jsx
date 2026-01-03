@@ -2,11 +2,10 @@ import React, { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Skills from "./Components/Skills";
-import About from "./Components/About";
-import Footer from "./Components/Footer";
+import Home from "./Components/Home";
+import Contact from "./Components/Contact";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -34,10 +33,10 @@ function App() {
   return (
     <>
       <div className="app">
-        <Navbar />
-        <About />
-        <Skills />
-        <Footer />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
     </>
   );

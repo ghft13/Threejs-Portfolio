@@ -12,8 +12,8 @@ function Footer() {
         trigger: ".footer",
         start: "top top", // Starts when footer enters viewport
         end: "bottom 80%", // Ends before fully scrolling past
-       // Smooth effect
-      
+        // Smooth effect
+
       },
     });
 
@@ -38,11 +38,11 @@ function Footer() {
   }, []);
 
   return (
-    <div className="w-screen bg-[#F9DDDF] h-screen footer">
-      <div className="flex justify-between items-center p-10 overflow-hidden">
-      
+    <div className="w-full bg-[#F9DDDF] min-h-screen footer overflow-hidden">
+      <div className="flex justify-between items-center p-5 md:p-10 overflow-hidden">
+
         <h1 className="text-3xl text-[#2F303D] font-[one] name relative top-20">
-              Jayraj Araj
+          Jayraj Araj
         </h1>
         <div className="flex items-center gap-2 pr-7">
           <span className="h-3 w-3 rounded-md bg-black block mt-1"></span>
@@ -53,13 +53,13 @@ function Footer() {
       </div>
 
       <div className="py-10">
-        <div className="flex items-center justify-center gap-10 px-20">
-          <h1 className="text-8xl font-[four]">Get Your Project Started</h1>
-          <FaArrowRightLong className="text-5xl" />
+        <div className="flex items-center justify-center gap-4 md:gap-10 px-5 md:px-20">
+          <h1 className="text-4xl md:text-8xl font-[four] text-center">Get Your Project Started</h1>
+          <FaArrowRightLong className="text-3xl md:text-5xl shrink-0" />
         </div>
 
         <div className="overflow-hidden">
-          <pre className="text-[6.5vw] tracking-tight uppercase leading-[90px] font-[two] py-16 px-10 relative top-72 title2">
+          <pre className="text-[8vw] md:text-[6.5vw] tracking-tight uppercase leading-snug md:leading-[90px] font-[two] py-10 md:py-16 px-5 md:px-10 relative top-20 md:top-72 title2 whitespace-pre-wrap">
             I turn your <span className="first">I</span>
             <span className="first">d</span>
             <span className="first">e</span>
@@ -78,7 +78,7 @@ function Footer() {
         </div>
 
         {/* Marquee Wrapper */}
-        <div className="bg-[#68A7F4] overflow-hidden w-screen py-2 px-5 mt-16 opacity-0 mar">
+        <div className="bg-[#68A7F4] overflow-hidden w-full py-2 px-5 mt-20 md:mt-16 opacity-0 mar">
           <div className="flex whitespace-nowrap marquee-content">
             {Array(3)
               .fill(0)
@@ -87,7 +87,7 @@ function Footer() {
                   {Array(4)
                     .fill("Because life's too short for boring designs ~")
                     .map((text, j) => (
-                      <h2 key={j} className="text-3xl font-[two] mx-2">
+                      <h2 key={j} className="text-xl md:text-3xl font-[two] mx-2">
                         {text}
                       </h2>
                     ))}
@@ -101,4 +101,4 @@ function Footer() {
 }
 
 
-export default Footer ;
+export default Footer;

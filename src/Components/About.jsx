@@ -14,7 +14,7 @@ function About() {
           end: "bottom 10%", // Scroll for twice the viewport height
           scrub: 1, // Smooth animation during scroll
           pin: true,
-         
+
         },
       });
 
@@ -45,46 +45,46 @@ function About() {
 
   return (
     <>
-      <div className="w-screen h-[100vh] bg-[black] About">
+      <div className="w-full min-h-screen bg-[black] About">
         <h1 className="text-center text-3xl font-[four] py-20 me text-white">
           About Me
           <span className="underline"></span>
         </h1>
 
-        <div className="flex justify-center items-center box ">
-       <h1 className="text-7xl font-[one] text-center tracking-tight text-gray-500 txt opacity-0">
-  <span>I’m </span>
-  <span>a </span>
-  <span>full-stack </span>
-  <span>developer </span>
-  <span>and </span>
-  <span>a </span>
-  <span>WordPress </span>
-  <span>developer </span>
-  <br />
+        <div className="flex justify-center items-center box px-4 md:px-0">
+          <h1 className="text-3xl md:text-7xl font-[one] text-center tracking-tight text-gray-500 txt opacity-0 leading-tight md:leading-normal">
+            <span>I’m </span>
+            <span>a </span>
+            <span>full-stack </span>
+            <span>developer </span>
+            <span>and </span>
+            <span>a </span>
+            <span>WordPress </span>
+            <span>developer </span>
+            <br className="hidden md:block" />
 
-  <span>who </span>
-  <span>builds </span>
-  <span>scalable, </span>
-  <span>web </span>
-  <span>applications </span>
-  <span>and </span>
-  <span>clean </span>
-  <span>content-driven </span>
-  <span>websites </span>
-  <br />
+            <span>who </span>
+            <span>builds </span>
+            <span>scalable, </span>
+            <span>web </span>
+            <span>applications </span>
+            <span>and </span>
+            <span>clean </span>
+            <span>content-driven </span>
+            <span>websites </span>
+            <br className="hidden md:block" />
 
-  <span>with </span>
-  <span>a </span>
-  <span>strong </span>
-  <span>focus </span>
-  <span>on </span>
-  <span>user </span>
-  <span>experience, </span>
-  <span>design, </span>
-  <span>and </span>
-  <span>performance.</span>
-</h1>
+            <span>with </span>
+            <span>a </span>
+            <span>strong </span>
+            <span>focus </span>
+            <span>on </span>
+            <span>user </span>
+            <span>experience, </span>
+            <span>design, </span>
+            <span>and </span>
+            <span>performance.</span>
+          </h1>
 
         </div>
       </div>

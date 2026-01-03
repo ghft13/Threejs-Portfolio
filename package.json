@@ -19,6 +19,7 @@
     "react-dom": "^18.3.1",
     "react-icon": "^1.0.0",
     "react-icons": "^5.4.0",
+    "react-router-dom": "^7.11.0",
     "sheryjs": "^1.0.0-beta.0.1.8",
     "three": "^0.173.0"
   },
