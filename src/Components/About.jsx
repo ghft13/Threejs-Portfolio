@@ -26,6 +26,7 @@ function About() {
 
       tl.to(".underline", {
         width: "120px",
+        marginTop: "20px",
         duration: 1.5,
         ease: "power2.out",
       });
@@ -46,7 +47,7 @@ function About() {
   return (
     <>
       <div className="w-full min-h-screen bg-[black] About">
-        <h1 className="text-center text-3xl font-[four] py-20 me text-white">
+        <h1 className="text-center text-5xl font-[four] py-20 me text-white">
           About Me
           <span className="underline"></span>
         </h1>
@@ -71,17 +72,15 @@ function About() {
             <span>and </span>
             <span>clean </span>
             <span>content-driven </span>
-            <span>websites </span>
+            <span>websites with a strong focus    </span>
             <br className="hidden md:block" />
 
-            <span>with </span>
-            <span>a </span>
-            <span>strong </span>
-            <span>focus </span>
+
             <span>on </span>
             <span>user </span>
             <span>experience, </span>
             <span>design, </span>
+            <br></br>
             <span>and </span>
             <span>performance.</span>
           </h1>

@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <div className="w-full bg-black h-screen relative urll-bg[reveal.mp4] overflow-hidden">
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-[85vh] object-cover z-0"
         src="/Reveal.mp4"
         autoPlay
         loop
@@ -37,7 +37,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="py-10 relative top-[50%] md:top-[63%] z-10 flex justify-center items-center flex-col">
+      <div className=" mb-20 relative top-[50%] md:top-[63%] z-10 flex justify-center items-center flex-col">
         <a
           href="/contact"
           className="inline-block px-4 py-2 bg-slate-900 text-white rounded-md shadow-sm"

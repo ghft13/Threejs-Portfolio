@@ -53,6 +53,18 @@ const projects = [
             " Design Web from Scratch, ",
         images: ["./Screenshot (500).png", "./Screenshot (501).png"],
     },
+    {
+        id: 3,
+        title: "Bad Credit Score",
+        client: "Bad Credit Score",
+        thumbnail: "./Screenshot (554).png",
+        liveUrl: "https://badcreditscore.in/",
+        role: "Full WordPress build — theme customization, Contact Form integration",
+        tech: ["WordPress", "Elementor", "Contact Form 7"],
+        summary: "Financial services website for loan assistance",
+        details: "A professional website for a Direct Selling Agent (DSA) helping individuals with low CIBIL scores secure loans. Features include a clean layout, service showcasing, testimonial slider, and easy-to-use contact forms for lead generation.",
+        images: ["./Screenshot (555).png", "./Screenshot (556).png"],
+    },
 
 ];
 
